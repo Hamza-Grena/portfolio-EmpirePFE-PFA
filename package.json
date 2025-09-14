@@ -1,8 +1,7 @@
 {
-  "name": "/",
+  "name": "Empire-PFE-PFA",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://portfolio-empire-pfe-pfa.vercel.app/react-portfolio-template",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
