@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import logo from '../assets/images/logo2.png';
+import logo from '../assets/images/logo.png';
 import '../assets/styles/Main.scss';
 import { Instagram, WhatsApp } from "@mui/icons-material";
 
