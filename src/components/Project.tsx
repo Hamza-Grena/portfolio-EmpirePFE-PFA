@@ -39,7 +39,7 @@ function Project() {
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={weFram} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" target="_blank" rel="noreferrer"><h2>Full Stack MERN Developer</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+            <p>ur project aims to design and launch an innovative B2B marketplace dedicated to the online sale of agricultural equipment. This digital platform is intended to directly connect suppliers, distributors, and manufacturers of agricultural machinery with professionals in the sector, including farmers, cooperatives, and agricultural entrepreneurs. The goal is to centralize the offer in a single space, allowing users to easily compare products, access detailed technical sheets, receive tailored recommendations, and negotiate transparently with sellers.</p>
             </div>
             <div className="project">
                 <a href="" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
