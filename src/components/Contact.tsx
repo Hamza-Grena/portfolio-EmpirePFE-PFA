@@ -51,7 +51,7 @@ function Contact() {
   };
 
  return (
-  <div id="contact">
+  <div id="contact" >
     <div className="items-container">
       <div className="contact_wrapper">
         <h1 className="contact-title">Contact Me</h1>
@@ -68,6 +68,7 @@ function Contact() {
           <div className="form-flex">
             <TextField
               required
+
               label="Your Name"
               placeholder="What's your name?"
               variant="outlined"

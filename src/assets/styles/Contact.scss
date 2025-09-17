@@ -1,3 +1,42 @@
+@use 'sass:color';
+
+// Debug color test
+@debug color.change(#6b717f, $red: 100); // #64717f
+
+/* === Input text === */
+.MuiInputBase-input,
+.MuiOutlinedInput-input {
+  color: #050f0b !important;   // dark readable text
+  font-size: 1rem !important;
+}
+
+/* === Placeholder text === */
+.MuiInputBase-input::placeholder {
+  color: #666 !important;
+  opacity: 1 !important;       // ensure visibility
+}
+
+/* === Labels === */
+.MuiInputLabel-root {
+  color: #050f0b !important;
+  font-size: 1rem !important;
+  font-family: Arial, sans-serif;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #5000ca !important;   // purple when focused
+}
+
+/* === Input outline === */
+.MuiOutlinedInput-root {
+  background: #fff !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #6b717f !important;  // custom border color
+}
+
+/* === Contact section === */
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
@@ -9,42 +48,44 @@
 
   button {
     float: right;
-    background-color: rgb(19, 190, 232);
-    color: #050f0b;
+    background-color: rgb(19, 190, 232) !important;
+    color: #050f0b !important;
+
+    &:hover {
+      background-color: #5000ca !important;
+      color: #fff !important;
+    }
   }
 
-  button:hover {
-    background-color: #5000ca;
-    color: rgb(11, 11, 11);
+  label {
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    color: #050f0b !important;
   }
 
-  fieldset {
-    background-color: rgb(240, 236, 236);
-    color: #050f0b;
+  form {
+    width: 100% !important;
   }
 }
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-  color: #050f0b;
-}
-
+/* === Flex container for name/email === */
 .form-flex {
   display: flex;
   gap: 15px;
   padding-bottom: 15px;
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
 }
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
-}
-
-form {
-  width: 100% !important;
-}
-
+/* === Textarea/message === */
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* === Global form reset === */
+form {
+  width: 100% !important;
 }
